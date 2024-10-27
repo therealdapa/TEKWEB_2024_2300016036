@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  border: solid 5px black;
+  border-radius: 5px;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 600px;
+}
+
+.dropdown {
+  margin-bottom: 20px;
+}
+
+.font-slider {
+  width: 200px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+ <div class="container">
+    <h1>Customize the Page</h1>
+
+    <!-- Change Background Color -->
+    <div class="dropdown">
+      <label for="background-color">Change Background Color: </label>
+      <select id="background-color">
+        <option value="white">White</option>
+        <option value="lightgray">Light Gray</option>
+        <option value="lightblue">Light Blue</option>
+        <option value="lightgreen">Light Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+    </div>
+
+    <!-- Change Font Size -->
+    <div class="font-control">
+      <label for="font-size-slider">Change Font Size: </label>
+      <input type="range" id="font-size-slider" class="font-slider" min="10" max="30" value="16">
+      <span id="font-size-display">16px</span>
+    </div>
+
+    <!-- Toggle Dark Mode -->
+    <div class="dark-mode-toggle">
+      <button id="dark-mode-btn">Toggle Dark Mode</button>
+    </div>
+
+    <!-- Change Font Style (Bonus) -->
+    <div class="font-style">
+      <label for="font-style-selector">Change Font Style: </label>
+      <select id="font-style-selector">
+        <option value="Arial">Arial</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Times New Roman">Times New Roman</option>
+      </select>
+    </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
